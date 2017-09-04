@@ -1,11 +1,13 @@
 
 
 header{
-	background-image: url(../assets/img/header-bg.jpg);
+	background-image: url(../img/header-bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	width: 100%;
+	height: 700px;
 
 
 }
@@ -18,8 +20,46 @@ header{
 	padding: 0;
 }
 
-h3{
+.star{
 	font-family: 'Kaushan Script', cursive;
 	color: #EEC705;
+}
+
+.navbar-inverse{
+	background-color: transparent;
+	border:none;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	color: black;
+    font-weight: bold;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    color: white;
+}
+.menu{
+	color: white;
+	float: left;
+}
+.icon{
+	float: right;
+    padding-top: 3px;
+    padding-left: 3px;
+    color: white;
+}
+.navbar-toggle{
+	background-color: transparent;
+	border-radius: 6px;
+}
+
+.titulo1{
+	color: white;
+}
+
+.subtitulo1{
+	color: white;
 }
 
